@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Set the owner and group for the file "_hello" (including symbolic links)
+chown -h vincent:staff ./_hello
