@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if telnet is installed
+if ! command -v telnet &> /dev/null; then
+    echo "telnet is not installed. Please install telnet to play Star Wars in the terminal."
+    exit 1
+fi
+
+# Connect to the server and play Star Wars
+telnet towel.blinkenlights.nl
+
